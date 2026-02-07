@@ -24,7 +24,7 @@ jobs:
           
       - name: Sync with upstream repository
         run: |
-          git remote add upstream https://github.com/gitbruc/feeds_packages_net_nginx
+          git remote add upstream https://github.com/sbwml/feeds_packages_net_nginx
           git fetch upstream
           git merge upstream/openwrt-25.12
           git push
